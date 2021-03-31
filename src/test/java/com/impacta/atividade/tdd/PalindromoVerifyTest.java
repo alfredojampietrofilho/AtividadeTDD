@@ -10,90 +10,90 @@ public class PalindromoVerifyTest {
 	@Test
 	public void shouldAnswerWithTrue1() {
 		PalindromoVerify verify = new PalindromoVerify();
-		assertTrue(verify.validate("Rotator"));
+		assertTrue(verify.isPalindrome("Rotator"));
 	}
 	
 	@Test
 	public void shouldAnswerWithTrue2() {
 		PalindromoVerify verify = new PalindromoVerify();
-		assertTrue(verify.validate("bob"));
+		assertTrue(verify.isPalindrome("bob"));
 	}
 	
 	@Test
 	public void shouldAnswerWithTrue3() {
 		PalindromoVerify verify = new PalindromoVerify();
-		assertTrue(verify.validate("madam"));
+		assertTrue(verify.isPalindrome("madam"));
 	}
 	
 	@Test
 	public void shouldAnswerWithTrue4() {
 		PalindromoVerify verify = new PalindromoVerify();
-		assertTrue(verify.validate("mAlAyAlam"));
+		assertTrue(verify.isPalindrome("mAlAyAlam"));
 	}
 	
 	@Test
 	public void shouldAnswerWithTrue5() {
 		PalindromoVerify verify = new PalindromoVerify();
-		assertTrue(verify.validate("1"));
+		assertTrue(verify.isPalindrome("1"));
 	}
 	
 	@Test
 	public void shouldAnswerWithTrue6() {
 		PalindromoVerify verify = new PalindromoVerify();
-		assertTrue(verify.validate("Able was I, ere I saw Elba"));
+		assertTrue(verify.isPalindrome("Able was I, ere I saw Elba"));
 	}
 	
 	@Test
 	public void shouldAnswerWithTrue7() {
 		PalindromoVerify verify = new PalindromoVerify();
-		assertTrue(verify.validate("Madam i`m Adam"));
+		assertTrue(verify.isPalindrome("Madam i`m Adam"));
 	}
 	
 	@Test
 	public void shouldAnswerWithTrue8() {
 		PalindromoVerify verify = new PalindromoVerify();
-		assertTrue(verify.validate("Step on no pets"));
+		assertTrue(verify.isPalindrome("Step on no pets"));
 	}
 	
 	@Test
 	public void shouldAnswerWithTrue9() {
 		PalindromoVerify verify = new PalindromoVerify();
-		assertTrue(verify.validate("Top spot!"));
+		assertTrue(verify.isPalindrome("Top spot!"));
 	}
 	
 	@Test
 	public void shouldAnswerWithFalse1() {
 		PalindromoVerify verify = new PalindromoVerify();
-		assertFalse(verify.validate("xyz"));
+		assertFalse(verify.isPalindrome("xyz"));
 	}
 	
 	@Test
 	public void shouldAnswerWithFalse2() {
 		PalindromoVerify verify = new PalindromoVerify();
-		assertFalse(verify.validate("elephant"));
+		assertFalse(verify.isPalindrome("elephant"));
 	}
 	
 	@Test
 	public void shouldAnswerWithFalse3() {
 		PalindromoVerify verify = new PalindromoVerify();
-		assertFalse(verify.validate("Country"));
+		assertFalse(verify.isPalindrome("Country"));
 	}
 	
 	@Test
 	public void shouldAnswerWithFalse4() {
 		PalindromoVerify verify = new PalindromoVerify();
-		assertFalse(verify.validate("Top . post!"));
+		assertFalse(verify.isPalindrome("Top . post!"));
 	}
 	
 	@Test
 	public void shouldAnswerWithFalse5() {
 		PalindromoVerify verify = new PalindromoVerify();
-		assertFalse(verify.validate("Wonderful-fool"));
+		assertFalse(verify.isPalindrome("Wonderful-fool"));
 	}
 	
 	@Test
 	public void shouldAnswerWithFalse6() {
 		PalindromoVerify verify = new PalindromoVerify();
-		assertFalse(verify.validate("Wild imagination!"));
+		assertFalse(verify.isPalindrome("Wild imagination!"));
 	}
 }
